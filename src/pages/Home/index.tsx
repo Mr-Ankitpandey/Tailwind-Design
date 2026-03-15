@@ -8,10 +8,10 @@ import Testimonial from "./sections/Testimonial"
 
 const Home = () => {
   return (
-    <div className="max-w-[1440px] mx-auto w-full flex flex-col gap-20.5 md:gap[132px]">
-    <div className='px-5 lg:px-18.75 lg:py-12.5'>
+    <div className="flex flex-col gap-20.5 md:gap-[132px]">
+    <div className='flex flex-col gap-2.5 lg:gap-[76px] max-w-[1440px] mx-auto w-full px-5 lg:px-18.75 lg:pt-12.5'>
       <Navbar/>
-      <main className="flex flex-col gap-5">
+      <main className="flex flex-col gap-5 md:gap-25">
       <Hero/>
       <About/>
       <Shop/>
