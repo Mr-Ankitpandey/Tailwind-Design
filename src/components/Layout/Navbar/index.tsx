@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className='hidden md:flex justify-between'>
         <div className='flex gap-3'>
           {menuIcons.map((menu)=>(
-            <Button key={menu} className='py-2.5 px-3.75 bg-(--menuButtons) md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[5px]'>{menu}</Button>
+            <Button key={menu} className='py-2.5 px-3.75 bg-neutral-300 md:text-[18px] lg:text-[20px] xl:text-[25px] rounded-[5px]'>{menu}</Button>
           ))}
         </div>
         <div>

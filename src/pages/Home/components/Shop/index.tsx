@@ -1,4 +1,4 @@
-import { PRODUCTS } from '../../../../constants/products'
+import { PRODUCTS } from '../../../../constants/PRODUCTS'
 import ProductCard from './ProductCard'
 
 const Shop = () => {

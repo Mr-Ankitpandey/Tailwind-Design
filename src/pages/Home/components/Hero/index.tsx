@@ -8,7 +8,7 @@ import HeroImage2 from "../../../../assets/images/heroSecond.png";
 const Hero = () => {
   return (
     <div className="flex flex-col gap-5 md:gap-25">
-      <div className="flex bg-(--lightpink) bg-[url('/bg-image.png')] md:bg-position-[-10px_240px] bg-position-[-140px_240px] bg-no-repeat flex-col md:flex-row md:items-center md:rounded-[20px] relative lg:h-130.75">
+      <div className="flex bg-accent-pink bg-[url('/bg-image.png')] md:bg-position-[-10px_240px] bg-position-[-140px_240px] bg-no-repeat flex-col md:flex-row md:items-center md:rounded-[20px] relative lg:h-130.75">
         <div className="px-2 py-19.5 md:px-15 lg:px-17.5 md:py-16 md:pb-20 md:w-[55%] lg:w-[60%] md:z-10" >
           <div className="flex flex-col gap-10 md:gap-7 lg:gap-10">
             <div >
@@ -25,7 +25,7 @@ const Hero = () => {
               </p>
             </div>
             <div className="md:mt-2">
-              <Button className=" rounded-[72px] w-full text-[32px] text-center px-5 py-2.5 flex justify-center items-center bg-(--black) text-(--white) md:w-auto  md:px-5 md:py-2.5 md:text-[32px] font-light">
+              <Button className=" rounded-[72px] w-full text-[32px] text-center px-5 py-2.5 flex justify-center items-center bg-black text-white md:w-auto  md:px-5 md:py-2.5 md:text-[32px] font-light">
                 Shop Now
                 <span><img className="w-8.75 ml-2 md:w-10 md:ml-3" src={SendWhite} alt="sendArrow" /></span>
               </Button>
@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className=" lg:py-12.5 lg:px-10 md:py-8 md:px-6 bg-(--gray) ">
+      <div className=" lg:py-12.5 lg:px-10 md:py-8 md:px-6 bg-neutral-200 ">
         <div className="flex flex-col gap-6 lg:gap-12.5 px-2 py-6 md:px-0 md:py-0">
           <h1 className="text-[30px] md:text-[35px] xl:text-[50px] lg:text-[40px]">Why Choose Xtragleam?</h1>
           <div className="md:flex-row flex flex-col gap-6">
@@ -48,7 +48,7 @@ const Hero = () => {
             <div className="flex flex-col gap-7.5 lg:max-w-[50%] md:my-4">
               <div>
                 <p className="text-[20px] lg:text-[27px] lg:leading-[120%]">Struggling with acne issues?</p>
-                <p className="text-[16px] mt-2.5 leading-[150%] text-(--black) xl:text-[27px] lg:text-[20px] lg:leading-[150%] font-light">
+                <p className="text-[16px] mt-2.5 leading-[150%] text-black xl:text-[27px] lg:text-[20px] lg:leading-[150%] font-light">
                   At Xtragleam Skincare, we understand how frustrating acne can
                   be, and we're here to help you regain confidence in your skin.
                   Our carefully designed recovery process targets acne at its root
@@ -56,7 +56,7 @@ const Hero = () => {
                 </p>
               </div>
               <div >
-                <Button className="flex items-center gap-2 bg-(--white) px-2.5 py-3 text-[22px] rounded-[50px] lg:px-5.25 lg:py-2.75 xl:text-[32px] lg:text-[24px] font-light">
+                <Button className="flex items-center gap-2 bg-white px-2.5 py-3 text-[22px] rounded-[50px] lg:px-5.25 lg:py-2.75 xl:text-[32px] lg:text-[24px] font-light">
                   Explore Our Range
                   <span>
                     <img className="w-7 lg:w-10" src={SendArrow} alt="sendicon" />

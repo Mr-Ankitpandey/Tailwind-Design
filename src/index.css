@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@config "../tailwind.config.js";
 * {
   box-sizing: border-box;
 }
@@ -24,22 +25,20 @@ body {
   font-family: "Aeonik", sans-serif;
 }
 :root {
-  --white: #ffffff;
-  --black: #000000;
-  --gray: #f0f0f0;
-  --lightgray: #fafafa;
-  --lightpink: #fff6fd;
-  --orange: #ffa44c;
-  --darkgray: #73788C;
-  --lightblack: #333333;
+  --color-primary: #ffa44c;
+  --color-accent-pink: #fff6fd;
+  
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f8f9fe;
+  --color-neutral-200: #f0f0f0;
+  --color-neutral-300: #efefef;
+  --color-neutral-400: #eeeeee;
+  --color-neutral-500: #cccccc;
+  --color-neutral-700: #898888;
+  --color-neutral-800: #73788C;
+  --color-neutral-850: #727272;
+  --color-neutral-900: #333333;
 
-  /* Utility colours */
-  --originalPrice: #cccccc;
-  --aboutBtn: #f8f9fe;
-  --aboutPara: #73788C;
-  --menuButtons: #EFEFEF;
-
-  /* Linear Gradient */
   --color-gradient-start: #D1068C;
   --color-gradient-middle: #1310A6;
   --color-gradient-end: #7E1B5C;
