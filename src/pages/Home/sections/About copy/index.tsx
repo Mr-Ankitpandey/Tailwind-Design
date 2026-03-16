@@ -5,9 +5,9 @@ import About2 from "../../../../assets/images/Pic About 2.png";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-8"  id="about">
-      <div>
-        <div className="flex flex-col gap-5">
+    <div className="flex flex-col gap-8 md:flex-row md:gap-6"  id="about">
+      <div className="lg:pr-12.25">
+        <div className="flex flex-col gap-5 md:gap-5.75">
           <div>
             <Button className="px-6 py-3 bg-[#f8f9fe] text-[18px] border rounded-sm">ABOUT US</Button>
           </div>
@@ -19,7 +19,7 @@ const About = () => {
             for local people.
           </p>
         </div>
-        <div>
+        <div className="lg:mt-6">
           <div className="flex gap-2">
           <Card
             h3="178K+"
@@ -30,7 +30,7 @@ const About = () => {
             p="Lorem ipsum dolor amet, consectetur adipiscing elit."
           />
           </div>
-          <div className="flex items-center mt-1 px-6 py-6 bg-[#fafafa] rounded-sm">
+          <div className="flex md:gap-2.5 items-center mt-1 lg:mt-8 px-6 py-6 bg-[#fafafa] rounded-sm">
             <div className="max-w-[50%] " >
               <h3 className="text-2xl font-bold">Title</h3>
               <p>
@@ -42,13 +42,13 @@ const About = () => {
             <img
               src={About2}
               alt="property thumbnail"
-              className="object-contain"
+              className="object-contain "
             />
             </div>
           </div>
         </div>
       </div>
-      <div >
+      <div className="md:max-w-[50%] md:flex md:items-center">
         <div>
           <img src={AboutImage} alt="About interior" />
         </div>
