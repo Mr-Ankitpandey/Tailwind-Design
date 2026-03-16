@@ -1,6 +1,6 @@
-import BodyLotionImg from '../assets/images/newleft.png'
-import FaceTonerImg from '../assets/images/middle.png'
-import OilImg from '../assets/images/newright.png'
+import BodyLotionImg from '../assets/images/lotion.png'
+import FaceTonerImg from '../assets/images/toner.png'
+import OilImg from '../assets/images/oil.png'
 
 
 

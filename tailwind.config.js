@@ -1,10 +1,9 @@
-module.exports = {
+export default {
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-bg': "url('/src/assets/images/bg-image.png')",
+      colors: {
+       
       },
     },
   },
-  plugins: [],
 };

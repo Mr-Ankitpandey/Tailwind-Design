@@ -1,9 +1,46 @@
-
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap");
 @import "tailwindcss";
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
+@font-face {
+  font-family: "Aeonik";
+  src: url("/public/fonts/aeoniktrial-light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("/public/fonts/aeoniktrial-regular.otf") format("opentype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Aeonik";
+  src: url("/public/fonts/aeoniktrial-bold.otf") format("opentype");
+  font-weight: 700;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Aeonik", sans-serif;
+}
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --gray: #f0f0f0;
+  --lightgray: #fafafa;
+  --lightpink: #fff6fd;
+  --orange: #ffa44c;
+  --darkgray: #73788C;
+  --lightblack: #333333;
+
+  /* Utility colours */
+  --originalPrice: #cccccc;
+  --aboutBtn: #f8f9fe;
+  --aboutPara: #73788C;
+  --menuButtons: #EFEFEF;
+
+  /* Linear Gradient */
+  --color-gradient-start: #D1068C;
+  --color-gradient-middle: #1310A6;
+  --color-gradient-end: #7E1B5C;
 }

@@ -5,9 +5,9 @@ type CardProps = {
 
 const Card = ({ h3, p }: CardProps) => {
   return (
-    <div className="max-w-[50%] px-6 py-6 bg-[#fafafa] rounded-sm">
+    <div className="max-w-[50%] px-6 py-6 bg-(--gray) rounded-sm">
       <h3 className="text-[24px] font-bold">{h3}</h3>
-      <p className="text-[16px]">{p}</p>
+      <p className="text-[16px] text-(--lightblack) leading-6">{p}</p>
     </div>
   )
 }

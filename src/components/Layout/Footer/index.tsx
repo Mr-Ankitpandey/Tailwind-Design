@@ -1,4 +1,5 @@
-import Button from '../../../../components/base/Button/index'
+import Button from "../../base/Button"
+
 const Footer = () => {
   return (
     <div className='bg-[#121212] text-white flex justify-center' id='contact'>
@@ -7,9 +8,9 @@ const Footer = () => {
         <div className='md:px-0'>
             <p className='text-[18px] text-center font-extralight leading-[100%] md:text-center md:text-[18px] md:leading-[100%] md:max-w-60'>Be the first to get notification about our upcoming event</p>
         </div>
-        <div className='flex bg-white justify-between px-0.5 py-0.5 rounded-[5px] md:bg-[#eeeeee] md:w-[320px] md:max-w-[50%]'>
+        <div className='flex bg-white justify-between rounded-[5px] md:bg-[#eeeeee] md:w-[320px] md:max-w-[50%]'>
             <input className='pl-6 border-none text-black md:text-[16px]'  type="email" placeholder="Email" />
-            <Button className='bg-black text-white px-3 py-3 rounded-[5px] font-light md:py-2 md:px-6 md:text-[16px]'>Submit</Button>
+            <Button className='bg-black text-white px-3 py-3 rounded-[5px] font-light md:py-2 md:px-6 md:text-[16px] mx-px my-px'>Submit</Button>
         </div>
       </div>
       <hr className='w-full border border-[#727272] mt-11.5 mb-6 md:mt-10' />

@@ -1,6 +1,6 @@
-import User1 from '../assets/images/person1.png'
-import User2 from '../assets/images/person2.jpg'
-import User3 from '../assets/images/person3.jpg'
+import User1 from '../assets/images/userOne.png'
+import User2 from '../assets/images/userTwo.jpg'
+import User3 from '../assets/images/userThree.jpg'
 
 export const USERS_DETAILS = [
     {

@@ -1,18 +1,18 @@
 import Button from "../../../../components/base/Button/index";
-import AboutImage from "../../../../assets/images/R.png";
+import AboutImage from "../../../../assets/images/about.png";
 import Card from "./CardComponent/index";
-import About2 from "../../../../assets/images/Pic About 2.png";
+import About2 from "../../../../assets/images/aboutCard.png";
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-8 md:flex-row md:gap-6"  id="about">
+    <div className="flex flex-col gap-8 md:flex-row md:gap-6" id="about">
       <div className="lg:pr-12.25">
         <div className="flex flex-col gap-5 md:gap-5.75">
           <div>
-            <Button className="px-6 py-3 bg-[#f8f9fe] text-[18px] border rounded-sm">ABOUT US</Button>
+            <Button className="px-6 py-3 bg-(--aboutBtn) text-[18px] border rounded-sm">ABOUT US</Button>
           </div>
-          <h1 className="text-2xl lg:text-5xl font-bold">How much is your property worth now?</h1>
-          <p className="text-[16px]">
+          <h1 className="text-2xl lg:text-5xl font-semibold">How much is your property worth now?</h1>
+          <p className="text-[16px] leading-6 text-(--darkgray)">
             We have built our reputation as true local area experts. We have
             gained more knowledge about buyer interests, our neighborhood and
             the market than any other brand because we live locally and work
@@ -30,7 +30,7 @@ const About = () => {
             p="Lorem ipsum dolor amet, consectetur adipiscing elit."
           />
           </div>
-          <div className="flex md:gap-2.5 items-center mt-1 lg:mt-8 px-6 py-6 bg-[#fafafa] rounded-sm">
+          <div className="flex md:gap-2.5 items-center mt-1 lg:mt-8 px-6 py-6 bg-(--lightgray) rounded-sm">
             <div className="max-w-[50%] " >
               <h3 className="text-2xl font-bold">Title</h3>
               <p>
