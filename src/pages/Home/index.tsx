@@ -9,7 +9,7 @@ import Testimonial from "./sections/Testimonial"
 const Home = () => {
   return (
     <div className="max-w-[1440px] mx-auto w-full flex flex-col gap-20.5 md:gap[132px]">
-    <div className='px-5 lg:px-18.75 lg:py-12.5'>
+    <div className='px-5 md:px-18.75 '>
       <Navbar/>
       <main className="flex flex-col gap-5">
       <Hero/>
